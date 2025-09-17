@@ -1,1 +1,13 @@
+body{
+  background-color: white;
+  color: black;
+  text-align: center;
+}
 
+button{
+  background-color: Gold;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+}
