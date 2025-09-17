@@ -12,5 +12,6 @@ button{
   border-radius: 20px;
   margin: 10px;
   cursor: pointer;
-  display: inline-block;
+  display: block;
+  margin: 10px auto;
 }
