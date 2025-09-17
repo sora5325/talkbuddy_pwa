@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="design.css">
+</head>
 
+<body>
+  <button onclick="play('yes')">yes</button>
+  <button onclick="play('no')">no</button>
+  <button onclick="play('thank_you')">Thank you</button>
+  <button onclick="play('explanation')">I prefer not to speak</button>
+  <button onclick="play('introduction')">I'm Sora</button>
+  <button onclick="play('hello')">Hello</button>
+  <button onclick="play('ntmy')">Nice to meet you.</button>
+  <button onclick="play('bye')">Have a nice day.</button>
+  <button onclick="play('good')">good!</button>
+  <button onclick="play('nice')">nice!</button>
+  <button onclick="play('excuse_me')">Excuse me</button>
+
+  <audio id="yes" src="yes.mp3" preload="auto"></audio>
+  <audio id="no" src="no.mp3" preload="auto"></audio>
+  <audio id="thank_you" src="thank_you.mp3" preload="auto"></audio>
+  <audio id="explanation" src="explanation.mp3" preload="auto"></audio>
+  <audio id="introduction" src="introduction.mp3" preload="auto"></audio>
+  <audio id="hello" src="hello.mp3" preload="auto"></audio>
+  <audio id="ntmy" src="ntmy.mp3" preload="auto"></audio>
+  <audio id="bye" src="bye.mp3" preload="auto"></audio>
+  <audio id="good" src="good.mp3" preload="auto"></audio>
+  <audio id="nice" src="nice.mp3" preload="auto"></audio>
+  <audio id="excuse_me" src="excuse_me.mp3" preload="auto"></audio>
+
+  <script>
+    function play(id){
+      let audio = document.getElementById(id);
+      audio.play();
+    }
+       
+  </script>
+</body>
+</html>
