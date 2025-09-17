@@ -7,7 +7,9 @@ body{
 button{
   background-color: Gold;
   color: black;
-  text-align: center;
+  border: none;
   padding: 10px;
   border-radius: 20px;
+  margin: 10px;
+  cursor: pointer;
 }
